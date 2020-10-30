@@ -2,7 +2,7 @@ import React from "react"
 import FirstFooterSection from "../molecules/FirstFooterSection"
 import SecondFooterSection from "../molecules/SecondFooterSection"
 
-const BootomSection = ({
+const FooterSection = ({
   firstContainerContent,
   secondContainerContent,
 }) => (
@@ -16,10 +16,10 @@ const BootomSection = ({
   </div>
 )
 
-BootomSection.propTypes = {
+FooterSection.propTypes = {
 }
 
-BootomSection.defaultProps = {
+FooterSection.defaultProps = {
 }
 
-export default BootomSection
+export default FooterSection
